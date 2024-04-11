@@ -1,0 +1,5 @@
+via\doc1\ex8\Ex8TestCoverageApplication.class
+via\doc1\ex8\services\TeamService.class
+via\doc1\ex8\controller\TeamController.class
+via\doc1\ex8\model\Task.class
+via\doc1\ex8\model\TeamMember.class
