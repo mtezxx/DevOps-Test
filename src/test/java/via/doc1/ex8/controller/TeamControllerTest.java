@@ -42,7 +42,7 @@ public class TeamControllerTest {
     @Test
     public void getTaskDetailsTest() throws Exception {
         // Use Mockito to "program" the fake teamService object to
-        // always return our mockTask, no matter whcih arguments are
+        // always return our mockTask, no matter which arguments are
         // supplied
         Mockito.when(teamService.getTask(Mockito.anyString(),
                 Mockito.anyString())).thenReturn(mockTask);

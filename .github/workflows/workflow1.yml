@@ -17,5 +17,5 @@ jobs:
     steps:
       # Check-out your repository
       - uses: actions/checkout@v3
-      - name: Run a one-line script
+      - name: Run a one-liner script
         run: echo "Continuous Integration"
