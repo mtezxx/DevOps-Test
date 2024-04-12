@@ -15,6 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     # Job's steps
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name : To Show Error
+      - run: echo "This is an error message" ; exit 1
+
       - name: Run a one-liner script
         run: echo "Continuous Integration"
